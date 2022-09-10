@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqh1806/nodejs-basic.git"
+  },
+  "keywords": [
+    "nodejs",
+    "basic"
+  ],
+  "author": "lqh1806",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lqh1806/nodejs-basic/issues"
+  },
+  "homepage": "https://github.com/lqh1806/nodejs-basic#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
