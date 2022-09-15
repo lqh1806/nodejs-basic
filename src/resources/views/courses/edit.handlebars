@@ -1,0 +1,56 @@
+<div class='mt4'>
+  <h3>Sửa khóa học</h3>
+  <form class='mt-4' method='POST' action='/courses/{{course._id}}?_method=PUT'>
+    <div class='form-group'>
+      <label for='nameCourse'>Tên khóa học</label>
+      <input
+        type='text'
+        class='form-control'
+        id='descriptionCourse'
+        name='name'
+        value='{{course.name}}'
+      />
+    </div>
+    <div class='form-group'>
+      <label for='descriptionCourse'>Mô tả khóa học</label>
+      <input
+        type='text'
+        class='form-control'
+        id='descriptionCourse'
+        name='description'
+        value='{{course.description}}'
+      />
+    </div>
+    <div class='form-group'>
+      <label for='imgCourse'>Image URL</label>
+      <input
+        type='text'
+        class='form-control'
+        id='imgCourse'
+        name='image'
+        value='{{course.image}}'
+      />
+    </div>
+    <div class='form-group'>
+      <label for='slugCourse'>Slug</label>
+      <input
+        type='text'
+        class='form-control'
+        id='slugCourse'
+        name='slug'
+        value='{{course.slug}}'
+      />
+    </div>
+    <div class='form-group'>
+      <label for='videoIdCourse'>Video ID</label>
+      <input
+        type='text'
+        class='form-control'
+        id='videoIdCourse'
+        name='videoId'
+        value='{{course.videoId}}'
+      />
+    </div>
+    <button type='submit' class='btn btn-primary'>Lưu lại</button>
+  </form>
+</div>
